@@ -1,0 +1,20 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found h1 {
+  margin: 20px;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.not-found a {
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  background-color: brown;
+}

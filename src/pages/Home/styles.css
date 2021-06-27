@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.movies {
+  margin: 15px;
+}
+
+.movies article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.movies strong {
+  padding-bottom: 15px;
+  font-size: 22px;
+}
+
+.movies img {
+  width: 900px;
+  max-height: 350px;
+}
+
+.movies article a {
+  text-decoration: none;
+  color: #fff;
+  background-color: brown;
+  font: 25px;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
